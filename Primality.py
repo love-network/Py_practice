@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+#--------------------------------------#
+#The minor modification
+#--------------------------------------#
+
 def get_integer():
     return int(raw_input("Please enter a number: "))
 
