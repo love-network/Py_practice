@@ -54,7 +54,7 @@ if tmpdir:
     os.remove(path)
     print("***update directory listing: ")
     print(os.listdir(cwd))
-    os.chdir(os.pardir)
+    os.chdir(os.paradir)
     print("***deleting test directory")
     os.rmdir("example")
     print("***done")
